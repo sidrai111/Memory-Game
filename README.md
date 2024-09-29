@@ -1,6 +1,8 @@
 # WebProg_Proj3
 javascript proj
 
+RUN WITH INDEX.HTML FILE
+
 do not modify the file structure without reason (making a new folder for your code is not a valid reason)
 - download git for git commands in terminal
 - git clone to save a local copy of the repository for you to work on
