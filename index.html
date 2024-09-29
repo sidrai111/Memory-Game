@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+    <title>Fifteen Puzzle</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="styles/fifteen.css">
+  </head>
+  <body>
+    <header><h1>Fifteen Puzzle</h1></header>
+
+    <div id="board" class="puzzleBoard">
+    </div>
+    <br>
+    
+    <div class="leaderboard">
+      <div id="bestScores">
+        <div class="timer-container">
+          <h3 >Best Time: <span id="bestTime"></span></h3>
+        </div>
+   
+
+        <div class="timer-container">
+          <h3 >Best Moves: <span id="bestMoves"></span></h3>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="actions">
+      <button id="shuffle" onclick="handleShuffle()">Shuffle</button>
+      <div class="info">
+        <div class="timer-container">
+          <h3>Time Elapsed: <span id="timer">0</span></h3>
+        </div>
+        <div class="timer-container">
+          <h3>Moves: <span id="moves">0</span></h3>
+        </div>
+      </div>
+
+      <div class="selector">
+        <label for="backgroundSelect">Select Background:</label>
+        <select id="backgroundSelect" onchange="changeBackground()">
+          <option value="background1">Mouse</option>
+          <option value="background2">Dog</option>
+          <option value="background3">Cat</option>
+          <option value="background4">Giraffe</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="winBanner">
+      <p id="winMessage"></p>
+    </div>
+    
+    <footer>
+      <div id="w3c" class="valid">
+        <p>
+          <a href="https://validator.w3.org">
+            <img src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML!">
+          </a>
+        </p>
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px"
+                  src="http://jigsaw.w3.org/css-validator/images/vcss"
+                  alt="Valid CSS!" >
+          </a>
+      </p>
+      </div> <!--w3 validator + jslint validator (opt)-->
+    </footer>
+
+    <script src="scripts/fifteen.js" type="text/javascript"></script>
+  </body>
+</html>
