@@ -9,16 +9,12 @@ do not modify the file structure without reason (making a new folder for your co
 
 make a branch if you're working on a feature that can be isolated. if updates to the main are made that would affect your branch if applied you will need to rebase it
 
-- if you fuck up badly, you can delete your branch
-- if you fuck up badly, git will remember, there's version history, this is literally the version control site
-
 __
 
 - if you use chatgpt to generate any code i need a full and i mean FULL writeup of each and every function and variable and what they do. post it in the groupchat or some txt/word file alongside your code.
-  - if you don't, im deleting it, fuck you.
+
 - if you write your own code, just comment normally. if you dont understand what you wrote, it's ok! we can figure it out :)
 
-if you fuck up the file structure ill fuck up your bone structure
 
 
 --------------------------------------------------------------------------------------------------------
